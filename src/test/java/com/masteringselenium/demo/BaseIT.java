@@ -42,4 +42,9 @@ public class BaseIT extends DriverBase {
         googleExampleThatSearchesFor("Milk");
     }
 
+    @Test
+    public void googleSomethingExample() {
+        googleExampleThatSearchesFor("Something");
+    }
+
 }
